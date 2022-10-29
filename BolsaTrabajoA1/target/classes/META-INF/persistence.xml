@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="BolsaTrabajoPU" transaction-type="JTA">
+    <jta-data-source>java:/jdbc/bolsa_trabajo</jta-data-source>
+    <class>ues.occ.edu.sv.ingenieria.prn335.bolsatrabajoprn335.Entity.TipoMedioContacto</class>
+    <class>ues.occ.edu.sv.ingenieria.prn335.bolsatrabajoprn335.Entity.Experiencia</class>
+    <class>ues.occ.edu.sv.ingenieria.prn335.bolsatrabajoprn335.Entity.MedioContacto</class>
+    <class>ues.occ.edu.sv.ingenieria.prn335.bolsatrabajoprn335.Entity.TipoDocumento</class>
+    <class>ues.occ.edu.sv.ingenieria.prn335.bolsatrabajoprn335.Entity.Formacion</class>
+    <class>ues.occ.edu.sv.ingenieria.prn335.bolsatrabajoprn335.Entity.Documento</class>
+    <class>ues.occ.edu.sv.ingenieria.prn335.bolsatrabajoprn335.Entity.Persona</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+  </persistence-unit>
+</persistence>
